@@ -4,3 +4,21 @@
     margin: 0;
     padding: 0;
 }
+
+/* THYPOGRAPHY */
+.main-title{
+  text-align: center;
+  font-size: 35px;
+  color: #E53170;
+  font-family: 'Fredoka One', cursive;
+  margin-bottom: 40px;
+}
+
+/* MAIN */
+
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
