@@ -14,6 +14,12 @@
   margin-bottom: 40px;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* MAIN */
 
 .container{
@@ -21,4 +27,46 @@
     margin: auto;
     margin-top: 25px;
     font-family: 'Roboto', sans-serif;
+}
+
+.staff-container{
+    width: calc(100% / 3 - 20px);
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0e17;
+    float: left;
+    margin-right: 20px;
+}
+
+#staff-description{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.staff-image{
+    width: 100px;
+    background-color: black;
+    margin-right: 10px;
+    float: left;
+}
+
+.staff-name{
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.job-name{
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.mail-link{
+    padding-top: 7px;
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    color: #3ca5d7;
 }
