@@ -23,7 +23,7 @@
 /* MAIN */
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 25px;
     font-family: 'Roboto', sans-serif;
