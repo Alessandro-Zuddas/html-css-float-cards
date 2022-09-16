@@ -38,6 +38,7 @@
     float: left;
     margin-right: 20px;
     margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px #888888;
 }
 
 #staff-description{
@@ -45,7 +46,7 @@
 }
 
 .staff-image{
-    max-width: 100px;
+    width: 100px;
     background-color: black;
     margin-right: 10px;
     float: left;
