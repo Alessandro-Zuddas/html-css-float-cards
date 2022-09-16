@@ -30,13 +30,14 @@
 }
 
 .staff-container{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
     margin: auto;
     margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     background-color: #0f0e17;
     float: left;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 #staff-description{
